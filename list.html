@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-glass: rgba(255, 255, 255, 0.15);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 flex items-center justify-center p-8">
+
+    <div class="w-full max-w-md space-y-6">
+
+        <!-- Unordered List Card -->
+        <div class="backdrop-blur-md bg-white/15 border border-white/30 rounded-2xl p-6 shadow-xl">
+            <h1 class="text-2xl font-bold text-white mb-4 tracking-wide">🍎 Unordered List (ul)</h1>
+            <ul class="space-y-2">
+                <li class="flex items-center gap-3 text-white/90 text-lg">
+                    <span class="w-2.5 h-2.5 rounded-sm bg-white/80 inline-block"></span>
+                    Mangga
+                </li>
+                <li class="flex items-center gap-3 text-white/90 text-lg">
+                    <span class="w-2.5 h-2.5 rounded-full bg-white/80 inline-block"></span>
+                    Apel
+                </li>
+                <li class="flex items-center gap-3 text-white/90 text-lg">
+                    <span class="w-2.5 h-2.5 rounded-full bg-white/80 inline-block"></span>
+                    Jambu
+                </li>
+            </ul>
+        </div>
+
+        <!-- Ordered List Card -->
+        <div class="backdrop-blur-md bg-white/15 border border-white/30 rounded-2xl p-6 shadow-xl">
+            <h1 class="text-2xl font-bold text-white mb-4 tracking-wide">📋 Ordered List (ol)</h1>
+            <ol class="space-y-2">
+                <li class="flex items-center gap-3 text-white/90 text-lg">
+                    <span class="w-7 h-7 rounded-full bg-white/25 flex items-center justify-center text-white text-sm font-semibold">a</span>
+                    Mangga
+                </li>
+                <li class="flex items-center gap-3 text-white/90 text-lg">
+                    <span class="w-7 h-7 rounded-full bg-white/25 flex items-center justify-center text-white text-sm font-semibold">b</span>
+                    Apel
+                </li>
+                <li class="flex items-center gap-3 text-white/90 text-lg">
+                    <span class="w-7 h-7 rounded-full bg-white/25 flex items-center justify-center text-white text-sm font-semibold">c</span>
+                    Jambu
+                </li>
+            </ol>
+        </div>
+
+    </div>
+
+</body>
+</html>
